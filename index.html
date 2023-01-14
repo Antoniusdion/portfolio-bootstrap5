@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -22,10 +23,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#about">About Me</a>
-              <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door-fill"> </i>Home</a>
+              <a class="nav-link" href="#about"><i class="bi bi-person-circle"> </i>About Me</a>
+              <a class="nav-link" href="#projects"><i class="bi bi-file-earmark"> </i>Projects</a>
+              <a class="nav-link" href="#contact"><i class="bi bi-telephone-fill"> b</i>Contact</a>
             </div>
           </div>
         </div>
@@ -78,7 +79,7 @@
       <div class="row" data-masonry='{"percentPosition": true }'>
         <div class="col-md-4 mb-3">
           <div class="card">
-            <img src="img/projects/1.jpg" class="card-img-top" alt="projects 1">
+            <img src="img/projects/1.jpg" data-aos="zoom-in-up" class="card-img-top" alt="projects 1">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -86,7 +87,7 @@
         </div>
         <div class="col-md-4 mb-3">
           <div class="card">
-            <img src="img/projects/2.jpg" class="card-img-top" alt="projects 2">
+            <img src="img/projects/2.jpg" data-aos="zoom-in-up" class="card-img-top" alt="projects 2">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -94,7 +95,7 @@
         </div>
         <div class="col-md-4 mb-3">
           <div class="card">
-            <img src="img/projects/3.jpg" class="card-img-top" alt="projects 3">
+            <img src="img/projects/3.jpg" data-aos="zoom-in-up" class="card-img-top" alt="projects 3">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -102,7 +103,7 @@
         </div>
         <div class="col-md-4 mb-3">
           <div class="card">
-            <img src="img/projects/4.jpg" class="card-img-top" alt="projects 4">
+            <img src="img/projects/4.jpg" data-aos="zoom-in-down" class="card-img-top" alt="projects 4">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -110,7 +111,7 @@
         </div>
         <div class="col-md-4 mb-3">
           <div class="card">
-            <img src="img/projects/5.jpg" class="card-img-top" alt="projects 5">
+            <img src="img/projects/5.jpg" data-aos="zoom-in-down" class="card-img-top" alt="projects 5">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -150,9 +151,11 @@
             <button type="submit" class="btn btn-primary">Kirim</button>
           </form>
         </div>
-      </div>
-      <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+     </div> -->
+
+      <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
@@ -196,7 +199,10 @@
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='MMERGE6';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
-    </div> -->
+</div>
+  </div>
+
+    
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="10" d="M0,96L26.7,117.3C53.3,139,107,181,160,192C213.3,203,267,181,320,149.3C373.3,117,427,75,480,90.7C533.3,107,587,181,640,192C693.3,203,747,149,800,154.7C853.3,160,907,224,960,234.7C1013.3,245,1067,203,1120,165.3C1173.3,128,1227,96,1280,106.7C1333.3,117,1387,171,1413,197.3L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
   </section>
 <!-- Akhir Contact -->
@@ -208,7 +214,11 @@
 <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
   </body>
 </html>
