@@ -1,12 +1,11 @@
-var i=0, Text;
-text = 'Selamat datang di portfolio saya';
+var i=0
+var typeWriter ='Selamat datang di portfolio saya!'
 
-function mengetik()
-{
-    if(i < Text.length){
-        document.getElementById('')
+function mengetik(){
+    if(i < typeWriter.length){
+        document.getElementById('text').innerHTML += typeWriter.charAt(i)
         i++;
-        setTimeout(mengetik, 80)
+        setTimeout(mengetik, 50)
     }
 }
-mengetik();
+
